@@ -11,7 +11,7 @@ import {
     ForbiddenException,
 } from '@nestjs/common';
 import { LoansService } from './loans.service';
-import { JwtAuthGuard } from '../common/guards/auth/auth.guard';
+import { JwtAuthGuard } from '../common/guards/auth.guard';
 import { RolesGuard } from '../common/guards/roles.guard';
 import { Roles } from '../common/guards/roles.decorator';
 
