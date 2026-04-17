@@ -6,7 +6,7 @@ This project is a full-stack loan management system built with:
 - Frontend: Vue 3 (Vite)
 - Auth: JWT-based authentication with role-based access control
 
-## 📁 Project Structure
+## Project Structure
 
     root/
     backend/ # NestJS API
@@ -14,7 +14,7 @@ This project is a full-stack loan management system built with:
     data/ # JSON datasets used by backend
 
 
-## 🚀 Features
+## Features
 
 ### Backend
 - JWT Authentication (`/login`, `/logout`)
@@ -39,7 +39,7 @@ This project is a full-stack loan management system built with:
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### Backend
 
