@@ -7,7 +7,7 @@ import { JwtService } from '@nestjs/jwt';
 @Injectable()
 export class AuthService {
     private staffs = JSON.parse(
-        fs.readFileSync(path.join(__dirname, '../../data/staffs.json'), 'utf-8'),
+        fs.readFileSync(path.join(process.cwd(), 'data/staffs.json'), 'utf-8'),
     );
 
     constructor(private jwtService: JwtService) { }
