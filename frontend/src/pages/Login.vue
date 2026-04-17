@@ -22,7 +22,6 @@
       <section class="form-panel">
         <div class="mobile-logo">
           <img src="/logo.svg" alt="Logo" class="logo-img" />
-          <span class="logo-text">Team Achieve</span>
         </div>
 
         <div class="form-content">
