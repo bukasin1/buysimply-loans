@@ -31,8 +31,8 @@ export class LoansController {
         // Hide totalLoan for normal staff
         if (user.role === 'staff') {
             loans = loans.map((loan) => {
-                const { totalLoan, ...rest } = loan;
-                return rest;
+                const { totalLoan, ...rest } = loan.applicant;
+                return { ...loan, applicant: rest };
             });
         }
 
